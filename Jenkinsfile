@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/gunjan-balpande/StatisWebsite.git'
+                git branch: 'main', url: 'https://github.com/gunjan-balpande/StatisWebsite.git'
             }
         }
         stage('Deploy') {
