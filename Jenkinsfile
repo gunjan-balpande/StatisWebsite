@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/static-website.git'
+                git 'https://github.com/gunjan-balpande/StatisWebsite.git'
             }
         }
         stage('Deploy') {
